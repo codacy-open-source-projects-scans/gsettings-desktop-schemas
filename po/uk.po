@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schema"
 "s/issues\n"
-"POT-Creation-Date: 2023-07-04 16:09+0000\n"
-"PO-Revision-Date: 2023-07-05 21:30+0300\n"
+"POT-Creation-Date: 2023-09-18 16:09+0000\n"
+"PO-Revision-Date: 2023-09-18 22:51+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -1272,40 +1272,45 @@ msgstr ""
 "Список значень «назва:колір», розділений «\\n» (визначається ключем «gtk-"
 "color-scheme»)"
 
+#. TRANSLATORS: select your locale's default clock format, this should be '12h' or '24h' (with the quotes!)
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:212
+msgid "'12h'"
+msgstr "'24h'"
+
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:213
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:214
 msgid "Whether the clock displays in 24h or 12h format"
 msgstr "У якому форматі показує час годинник: у 12-значному або у 24-значному"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:219
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:220
 msgid "Whether the clock shows seconds"
 msgstr "Чи показувати секунди"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:220
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:221
 msgid "If true, display seconds in the clock."
 msgstr "Якщо встановлено, будуть показані секунди."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:226
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:227
 msgid "Show date in clock"
 msgstr "Показувати дату у годиннику"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:227
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:228
 msgid "If true, display date in the clock, in addition to time."
 msgstr "Якщо встановлено, у годиннику буде показано дату."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:233
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
 msgid "Show weekday in clock"
 msgstr "Показувати день тижня на годиннику"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:235
 msgid "If true, display weekday in the clock, in addition to time."
 msgstr "Якщо позначено, поруч з годинником відображається день тижня"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:240
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
 msgid "Enable hot corners"
 msgstr "Увімкнути гарячі куточки"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:242
 msgid ""
 "If true, the activities overview can be accessed by moving the mouse to the "
 "top-left corner."
@@ -1313,11 +1318,11 @@ msgstr ""
 "Якщо має значення «true», доступ до огляду дій можна буде отримати "
 "пересуванням вказівника миші у верхній лівий кут екрана."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:248
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
 msgid "Show battery percentage"
 msgstr "Показати відсоток заряду акумулятора"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:250
 msgid ""
 "If true, display battery percentage in the status menu, in addition to the "
 "icon."
@@ -1325,11 +1330,11 @@ msgstr ""
 "Якщо увімкнено, то в меню стану поруч зі значком батареї буде показаний "
 "відсоток її заряду."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:255
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
 msgid "Enable the primary paste selection"
 msgstr "Увімкнути первинну вставку виділеного"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:257
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
@@ -1337,11 +1342,11 @@ msgstr ""
 "Якщо позначено, gtk+ використовує основну вставку виділеного, що зазвичай "
 "виконується за допомогою середньої кнопки миші."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:262
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:263
 msgid "Allow overlay scrolling"
 msgstr "Дозволити накладки гортання"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:263
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:264
 msgid ""
 "Whether scrollbars should be overlayed as indicators. Depending on input "
 "devices in use, permanent scrollbars may still be displayed."
@@ -1350,11 +1355,11 @@ msgstr ""
 "введення, які використовуються, система може показувати смужки гортання, які "
 "не ховаються."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:271
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:272
 msgid "Highlights the current location of the pointer."
 msgstr "Виділяє поточне розташування вказівника."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:272
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:273
 msgid ""
 "If true, pressing a key will highlight the current pointer location on "
 "screen."
@@ -1362,11 +1367,11 @@ msgstr ""
 "Якщо має значення «true», натискання клавіші підсвічуватиме поточне "
 "розташування вказівника на екрані."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:278
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
 msgid "Antialiasing"
 msgstr "Згладжування"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:280
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
@@ -1377,11 +1382,11 @@ msgstr ""
 "згладжування, «rgba» — субпіксельне згладжування (лише рідкокристалічні "
 "екрани)."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:285
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
 msgid "Hinting"
 msgstr "Хінтінг"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:287
 msgid ""
 "The type of hinting to use when rendering fonts. Possible values are: “none” "
 "for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
@@ -1406,11 +1411,11 @@ msgstr ""
 "Це може призвести до викривлення і/або різнорідності вигляду символів, "
 "залежно від якості шрифту, формату шрифту та стану рушіїв шрифтів FreeType."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:292
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
 msgid "RGBA order"
 msgstr "Порядок RGBA"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:294
 msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing "
 "is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
@@ -1420,11 +1425,11 @@ msgstr ""
 "згладжування «rgba». Можливі значення: «rgb» (червоний ліворуч, найчастіше), "
 "«bgr» (синій ліворуч), «vrgb» (червоний згори), «vbgr» (червоний знизу)."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:299
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
 msgid "Color scheme"
 msgstr "Схема кольорів"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:301
 msgid ""
 "The preferred color scheme for the user interface. Valid values are "
 "“default”, “prefer-dark”, “prefer-light”."
@@ -3136,11 +3141,6 @@ msgid "Control how new windows get focus"
 msgstr "Спосіб передачі фокусу новим вікнам"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:56
-#| msgid ""
-#| "This option provides additional control over how newly created windows "
-#| "get focus. It has two possible values; “smart” applies the user’s normal "
-#| "focus mode, and “strict” results in windows started from a terminal not "
-#| "being given focus."
 msgid ""
 "This option provides additional control over how newly created windows get "
 "focus. It has two possible values; “smart” applies the user’s normal focus "
@@ -3150,8 +3150,8 @@ msgstr ""
 "Цей ключ надає у ваше розпорядження додаткові засоби керування тим, як "
 "передаватиметься фокусування до новостворених вікон. Можливі два значення "
 "ключа: «smart» реалізовує звичний режим фокусування для користувача, а "
-"«strict» призводитиме до того, що нові вікна не отримуватимуть фокуса"
-" автоматично."
+"«strict» призводитиме до того, що нові вікна не отримуватимуть фокуса "
+"автоматично."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:65
 msgid "Whether windows should be raised when their client area is clicked"
@@ -3180,15 +3180,6 @@ msgid "Action on title bar double-click"
 msgstr "Дія при подвійному клацанні на заголовку вікна"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:83
-#| msgid ""
-#| "This option determines the effects of double-clicking on the title bar. "
-#| "Current valid options are “toggle-shade”, which will shade/unshade the "
-#| "window, “toggle-maximize” which will maximize/unmaximize the window, "
-#| "“toggle-maximize-horizontally” and “toggle-maximize-vertically” which "
-#| "will maximize/unmaximize the window in that direction only, “minimize” "
-#| "which will minimize the window, “shade” which will roll the window up, "
-#| "“menu” which will display the window menu, “lower” which will put the "
-#| "window behind all the others, and “none” which will not do anything."
 msgid ""
 "This option determines the effects of double-clicking on the title bar. "
 "Current valid options are “toggle-maximize” which will maximize/unmaximize "
@@ -3200,27 +3191,17 @@ msgid ""
 msgstr ""
 "За допомогою цього параметра можна визначити результат подвійного клацання "
 "на смужці заголовка. Поточними коректними варіантами значення параметра є "
-"«toggle-maximize» для "
-"максимізації або зменшення вікна, «toggle-maximize-horizontally» та «toggle-"
-"maximize-vertically» максимізація або зменшення вікна лише в одному "
-"напрямку, «minimize» для мінімізації вікна, "
-"«menu» для показу меню вікна, «lower» для розташування вікна під іншими і "
-"«none» для варіанта із ігнорування клацання."
+"«toggle-maximize» для максимізації або зменшення вікна, «toggle-maximize-"
+"horizontally» та «toggle-maximize-vertically» максимізація або зменшення "
+"вікна лише в одному напрямку, «minimize» для мінімізації вікна, «menu» для "
+"показу меню вікна, «lower» для розташування вікна під іншими і «none» для "
+"варіанта із ігнорування клацання."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:105
 msgid "Action on title bar middle-click"
 msgstr "Дія при клацанні середньою кнопкою на заголовку вікна"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:106
-#| msgid ""
-#| "This option determines the effects of middle-clicking on the title bar. "
-#| "Current valid options are “toggle-shade”, which will shade/unshade the "
-#| "window, “toggle-maximize” which will maximize/unmaximize the window, "
-#| "“toggle-maximize-horizontally” and “toggle-maximize-vertically” which "
-#| "will maximize/unmaximize the window in that direction only, “minimize” "
-#| "which will minimize the window, “shade” which will roll the window up, "
-#| "“menu” which will display the window menu, “lower” which will put the "
-#| "window behind all the others, and “none” which will not do anything."
 msgid ""
 "This option determines the effects of middle-clicking on the title bar. "
 "Current valid options are “toggle-maximize” which will maximize/unmaximize "
@@ -3232,27 +3213,17 @@ msgid ""
 msgstr ""
 "За допомогою цього параметра можна визначити результат клацання середньою "
 "кнопкою на смужці заголовка. Поточними коректними варіантами значення "
-"параметра є «toggle-maximize» для максимізації або зменшення вікна,"
-" «toggle-maximize-"
-"horizontally» та «toggle-maximize-vertically» максимізація або зменшення "
-"вікна лише в одному напрямку, «minimize» для мінімізації вікна, «menu» для"
-" показу меню вікна, «lower» для розташування "
-"вікна під іншими і «none» для варіанта із ігнорування клацання."
+"параметра є «toggle-maximize» для максимізації або зменшення вікна, «toggle-"
+"maximize-horizontally» та «toggle-maximize-vertically» максимізація або "
+"зменшення вікна лише в одному напрямку, «minimize» для мінімізації вікна, "
+"«menu» для показу меню вікна, «lower» для розташування вікна під іншими і "
+"«none» для варіанта із ігнорування клацання."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:129
 msgid "Action on title bar right-click"
 msgstr "Дія при клацанні правою кнопкою на заголовку вікна"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:130
-#| msgid ""
-#| "This option determines the effects of right-clicking on the title bar. "
-#| "Current valid options are “toggle-shade”, which will shade/unshade the "
-#| "window, “toggle-maximize” which will maximize/unmaximize the window, "
-#| "“toggle-maximize-horizontally” and “toggle-maximize-vertically” which "
-#| "will maximize/unmaximize the window in that direction only, “minimize” "
-#| "which will minimize the window, “shade” which will roll the window up, "
-#| "“menu” which will display the window menu, “lower” which will put the "
-#| "window behind all the others, and “none” which will not do anything."
 msgid ""
 "This option determines the effects of right-clicking on the title bar. "
 "Current valid options are “toggle-maximize” which will maximize/unmaximize "
@@ -3264,12 +3235,11 @@ msgid ""
 msgstr ""
 "За допомогою цього параметра можна визначити результат клацання правою "
 "кнопкою на смужці заголовка. Поточними коректними варіантами значення "
-"параметра є «toggle-"
-"maximize» для максимізації або зменшення вікна, «toggle-maximize-"
-"horizontally» та «toggle-maximize-vertically» максимізація або зменшення "
-"вікна лише в одному напрямку, «minimize» для мінімізації вікна, «menu» для"
-" показу меню вікна, «lower» для розташування "
-"вікна під іншими і «none» для варіанта із ігнорування клацання."
+"параметра є «toggle-maximize» для максимізації або зменшення вікна, «toggle-"
+"maximize-horizontally» та «toggle-maximize-vertically» максимізація або "
+"зменшення вікна лише в одному напрямку, «minimize» для мінімізації вікна, "
+"«menu» для показу меню вікна, «lower» для розташування вікна під іншими і "
+"«none» для варіанта із ігнорування клацання."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:152
 msgid "Automatically raises the focused window"
